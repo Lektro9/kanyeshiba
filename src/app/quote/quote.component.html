@@ -1,0 +1,4 @@
+<p>my kanye quote</p>
+<img src="{{(quote | async)?.pic}}" width="250" />
+<p>{{(quote | async)?.quote}}</p>
+<button (click)="getKanyeQuote()">lesgo</button>
